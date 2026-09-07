@@ -47,6 +47,6 @@ It's a working prototype I'm actively iterating on.
 
 This was my first time building an AI-based app from the ground up. I'd used FastAPI before for some other small projects like a PDF reader, but designing an app where the AI itself shapes the core experience was new.
 
-Prompt engineering turned out to be the most interesting part of the project. Getting the AI to generate observation prompts that felt natural, varied, and genuinely open-ended — rather than repetitive or overly poetic — took a lot of iteration. I had to think carefully about constraints: what layer of experience to draw attention to (visual, social, spatial, etc.), how to keep language simple, and how to make sure the AI's interpretation stayed grounded in what the user actually observed rather than inventing meaning.
+Prompt engineering was the most challenging part of the project. Getting the AI to generate observation prompts that felt natural, varied, and genuinely open-ended, rather than repetitive or overly poetic took a lot of iteration. I had to think carefully about constraints, how to keep language simple, and how to make sure the AI's interpretation stayed grounded in what the user actually observed rather than inventing meaning.
 
-It also gave me a chance to connect my research background in spatial experience to something people can actually use and interact with, rather than just write about.
+It also gave me a chance to connect my research background in spatial science and design in an app that people can use.
