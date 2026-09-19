@@ -3,7 +3,7 @@
 
 **Overview** 
 
-In today's fast-paced world, we often move through spaces without truly seeing them — most of the time heads down with our phones, thinking about the demands of daily life. Creative Wanderer explores how AI might help us reconnect with the spaces we live in by encouraging us to pause, look around, and share our unique experience of wandering.
+In today's fast-paced world, we often move through spaces without truly seeing them, most of the time heads down with our phones, thinking about the demands of daily life. Creative Wanderer explores how AI might help us reconnect with the spaces we live in by encouraging us to pause, look around, and share our unique experience of wandering.
 
 **How It Works**
 
@@ -92,3 +92,8 @@ It also gave me a chance to connect my research background in spatial science an
 ```
    http://127.0.0.1:8000
 ```
+## Roadmap
+
+- User accounts and private field notes
+- Sharing field notes with others
+- Real location-based prompts (rather than preset place options)
