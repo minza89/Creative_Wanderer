@@ -50,3 +50,45 @@ This was my first time building an AI-based app from the ground up. I'd used Fas
 Prompt engineering was the most challenging part of the project. Getting the AI to generate observation prompts that felt natural, varied, and genuinely open-ended, rather than repetitive or overly poetic took a lot of iteration. I had to think carefully about constraints, how to keep language simple, and how to make sure the AI's interpretation stayed grounded in what the user actually observed rather than inventing meaning.
 
 It also gave me a chance to connect my research background in spatial science and design in an app that people can use.
+
+
+## Setup
+
+**Requirements:**
+- Python 3.10+
+- [uv](https://docs.astral.sh/uv/) for dependency management
+- An OpenAI API key
+
+**Steps:**
+
+1. Clone the repo
+```bash
+   git clone https://github.com/your-username/creative-wanderer.git
+   cd creative-wanderer
+```
+
+2. Generate `pyproject.toml` and add dependencies (only needed once, before your first push)
+```bash
+   uv init --no-readme
+   uv add fastapi uvicorn jinja2 openai python-multipart
+```
+
+3. Install dependencies (for anyone cloning the repo)
+```bash
+   uv sync
+```
+
+4. Set your OpenAI API key
+```bash
+   export OPENAI_API_KEY="your-api-key-here"
+```
+
+5. Run the app
+```bash
+   uv run uvicorn app:app --reload
+```
+
+6. Open your browser to
+```
+   http://127.0.0.1:8000
+```
